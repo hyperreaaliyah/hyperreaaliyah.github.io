@@ -1,0 +1,29 @@
+[
+	{
+		"name": "Work 01",
+		"number" : 1,
+		"photos": [
+			"img/work01.jpg",
+			"img/work01_1.jpg"
+		],
+		"description": "Bla bla."
+	},
+	{
+		"name": "Work 02",
+		"number" : 2,
+		"photos": [
+			"img/work02.jpg"
+		],
+		"description": "Bla bla bla."
+	},
+	{
+		"name": "Work 03",
+		"number" : 3,
+		"photos": [
+			"img/work03.jpg",
+			"img/work03_1.jpg"
+		],
+		"description": "Bla bla bla."
+
+	}
+]
