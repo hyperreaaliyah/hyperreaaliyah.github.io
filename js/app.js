@@ -54,20 +54,8 @@
 
 		},
 		{
-			"name": "Divine Pekka",
-			"number" : 3,
-			"photos": [
-				{
-					"src" : "pekka_ready_2_party.png",
-					"text" : "This image was displayed as a tiny 8 cm x 10 cm print in the HYPERREAALIYAH + HANNA HYY = NOW HERE xhibition. There are ten editions of this silisec print, which functions as a sigil."
-				}
-			],
-			"description": "Pekka Siitoin (1944-2003) had provided endless visions from the ether to anyone who looks into him with an open heart. He was a controversial character bent to provoke, very much like Divine who died for our sins in 1988. Here, the two agent provocateurs are morphed in a single image."
-
-		},
-		{
 			"name": "Art History",
-			"number" : 4,
+			"number" : 3,
 			"photos": [
 				{
 					"name" : "Bosch Lepore",
@@ -91,7 +79,7 @@
 		},
 		{
 			"name": "Sympolitics",
-			"number" : 5,
+			"number" : 4,
 			"photos": [
 				{
 					"name" : "Always Bill",
@@ -150,43 +138,43 @@
 		},
 		{
 			"name" : "Now Here Kalleria",
-			"number" : 6,
+			"number" : 5,
 			"showVideo" : "true",
 			"description": "This is a collection of videos shot during the HYPERREAALIYAH + HANNA HYY = NOW HERE xhibition. The legendary Henry Lämsä did part of the filming. The audiotrack is by HYPERREAALIYAH and RUTTOKUKKO."
 		},
 		{
 			"name": "WEIRD HISTORY OF FINNISH YOUTUBE ART 2005-2015",
-			"number" : 7,
+			"number" : 6,
 			"showVideo" : "true",
 			"description": "This is a collection of Finnish Youtube art from the past ten years, collected by HYPERREAALIYAH and Pultset. The video depicts many different sub-genres and the development of the most strong genre SinäTuubaPaska, Finnish equivalent of YoutubePoop. This video was publicly on display during the Night of The Arts in Helsinki on 20th of August 2015, where approximately one hundred people saw it in its entirety."
 		},
 		{
 			"name": "Mind melt in brain felt + MLG for Trio pussit",
-			"number" : 8,
+			"number" : 7,
 			"showVideo" : "true",
 			"description": "This is a VJ set done for the band Trio pussit. The video consists of about 12 movies spliced and diced, numerous clips from various MLG videos and a great quantity of grotesque clips from Youtube."
 		},
 		{
 			"name": "Day of 8 feat. SOFA",
-			"number" : 9,
+			"number" : 8,
 			"showVideo" : "true",
 			"description": "This video consists of footage shot by Jenna on her 26th birthday."
 		},
 		{
 			"name" : "Henry Lämsä in club Hogarden",
-			"number" : 10,
+			"number" : 9,
 			"showVideo" : "true",
 			"description": ""
 		},
 		{
 			"name" : "Ukkometso in Alko: Tax Paid",
-			"number" : 11,
+			"number" : 10,
 			"showVideo" : "true",
 			"description": "This video is a reaction to Finland's alcohol monopoly Alko's <i>Tax Paid</i> marketing campaign. "
 		},
 		{
 			"name" : "SUOLEN SISUN HISTORIIKKI",
-			"number" : 12,
+			"number" : 11,
 			"showVideo" : "true",
 			"description": "This was by far the biggest collective effort of HYPERREAALIYAH. On Monday the 14th of September, Jenna received a message from an acquaintance and a member of contemporary Finnish SS, Suomen Sisu, to make a video of its 17 year history for private use in their seminar. Jenna agreed immediately, secretly taking their script and giving it to the hands of HYPERREAALIYAH. In three days, a real history was created, showing how the SS looks like in the eyes of an outsider. The video was published publicly at the same time it was scheduled to be shown in the seminar, where it was sent so that there was no chance they had time to look at it in advance. The story does not tell whether they looked at it in the seminar or not. Within two days, the video had 16 000 views on Youtube, which is a lot in Finnish standards. "
 		}

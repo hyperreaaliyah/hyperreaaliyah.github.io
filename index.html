@@ -3,21 +3,24 @@
 <html ng-app="art-catalogue">
 	<head>
 
+		<meta charset="UTF-8">
 		<link rel="stylesheet" type="text/css" href="css/normalize.css">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css">
 		<!-- <link rel="stylesheet" type="text/css" href="css/menu-style.css"> -->
 
 		<link rel="stylesheet" type="text/css" href="css/main.css">
-
-		<script src="js/jquery-2.1.1.js"></script>
+		
+		<script src="js/jquery-2.1.1.js"></script>		
 		<script type="text/javascript" src="js/angular.min.js"></script>
 		<script type="text/javascript" src="js/app.js"></script>
 		
 		<script type="text/javascript" src="js/navigation.js"></script>
 		<script type="text/javascript" src="js/bubbles.js"></script>
+		
+		
 
-
+		
 	</head>
 
 	<body ng-controller="ArtController as controller">
@@ -62,6 +65,12 @@
 				<h2 class="newsTitle">News</h2>
 
 				<table style="width:100%">
+					<tr>
+						<td class="newsDate"><p>22.9.2015</p></td>
+						<td class="newsContent">
+							<p>Jenna Jauhiainen is taking the Sympolitics series to the portfolio review in Encontros da Imagem on 23.-26.9.</p>
+						</td>
+					</tr>
 					<tr>
 						<td class="newsDate"><p>19.9.2015</p></td>
 						<td class="newsContent">
@@ -113,9 +122,9 @@
 
 
 		<!-- BUBBLE POLIS -->
-		<section class="main">
+		<section id="main" class="main">
 
-			<button class="goToMenu"><img src="img/menu_button.png"></img></button>
+			<button class="goToMenu"><img src="img/menu_button_copy.png"></img></button>
 			
 		</section>
 
@@ -145,26 +154,27 @@
 
 					<!-- SHOWS A VIDEO IF ITS ALLOWED IN THE JSON --> 
 					<div class="video" ng-show="work.showVideo">
-						<div class="videoContainer" ng-show="tab === 7">
+
+						<div class="videoContainer" ng-show="tab === 6">
 							<iframe class="projectVideo" src="https://www.youtube.com/embed/JHD8pSs2rFs" frameborder="0"></iframe>
 						</div>
-						<div class="videoContainer" ng-show="tab === 8">
+						<div class="videoContainer" ng-show="tab === 7">
 							<iframe class="projectVideo" src="https://www.youtube.com/embed/vpU8vFatBx4" frameborder="0"></iframe>
 						</div>
-						<div class="videoContainer" ng-show="tab === 9">
+						<div class="videoContainer" ng-show="tab === 8">
 							<iframe class="projectVideo" src="https://www.youtube.com/embed/HTpJc8TmQVs" frameborder="0"></iframe>
 						</div>
-						<div class="videoContainer" ng-show="tab === 10">
+						<div class="videoContainer" ng-show="tab === 9">
 							<iframe class="projectVideo" src="https://www.youtube.com/embed/cPUhP5zmIyk" frameborder="0"></iframe>
 						</div>
-						<div class="videoContainer" ng-show="tab === 11">
+						<div class="videoContainer" ng-show="tab === 10">
 							<iframe class="projectVideo" src="https://www.youtube.com/embed/py1aFjHeUEk" frameborder="0"></iframe>
 						</div>
-						<div class="videoContainer" ng-show="tab === 12">
+						<div class="videoContainer" ng-show="tab === 11">
 							<iframe class="projectVideo" src="https://www.youtube.com/embed/WBziKZWUQZs" frameborder="0"></iframe>
 						</div>
 						<!-- SUOLEN SISUN HISTORIIKKI -->
-						<div class="videoContainer" ng-show="tab === 13">
+						<div class="videoContainer" ng-show="tab === 12">
 							<iframe class="projectVideo" src="https://www.youtube.com/watch?v=J0yFJH1qVJ8" frameborder="0"></iframe>			
 						</div>
 						

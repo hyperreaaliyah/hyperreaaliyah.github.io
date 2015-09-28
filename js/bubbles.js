@@ -1,6 +1,6 @@
 
 var imageHeight = 16;
-var imageCount = 24;
+
 var imageDirection = -1;
 
 // time to wait before queueing the next screen update
@@ -18,7 +18,8 @@ var yStep = new Array();
 
 var timeout = null;
 
-var projectNumbers = [0,1,2,3,4,4,4,5,5,5,5,5,5,5,5,5,6,7,8,9,10,11,12];
+var projectNumbers = [0,1,2,3,3,3,4,4,4,4,4,4,4,4,4,5,6,7,8,9,10,11];
+var imageCount = projectNumbers.length;
 
 // window size variables, set by function detectWindowSize()
 var windowWidth, windowHeight;
@@ -72,6 +73,8 @@ function drawBubble(index) {
     // bubble.xAmplitude = xAmplitude(index);
     // bubble.yStep = yStep(index);
     var projectIndex = projectNumbers[index];
+
+    //$('.main').append('<div class="bubble" id="dot'+index+'" ng-click="tab='+projectIndex+'" style="POSITION:absolute; Z-INDEX:'+index+'; VISIBILITY:visible; TOP:15px; LEFT:15px;"><img class="clickable" src="bubbles/'+index+'.png" alt="Floating image"/></div>');
 
     document.write('<div class="bubble" id="dot'+index+'" ng-click="tab='+projectIndex+'" style="POSITION:absolute; Z-INDEX:'+index+'; VISIBILITY:visible; TOP:15px; LEFT:15px;"><img class="clickable" src="bubbles/'+index+'.png" alt="Floating image"/></div>');
 }
@@ -132,22 +135,27 @@ function detectWindowSize() {
 }
 
 var listenToClicks = function() {
-    document.getElementByClassName('bubble').click(function() {
+    $('.bubble').click(function() {
         stopAnimation();
         console.log("anomation stopped");
     });
-    document.getElementByClassName('arrowRight').click(function() {
+    $('.arrowRight').click(function() {
         startAnimation();
         console.log("anomation started");
     });
-    document.getElementByClassName('arrowLeft').click(function() {
+    $('.arrowLeft').click(function() {
         startAnimation();
         console.log("anomation started");
+    });
+    $('.goToMenu').click(function() {
+        stopAnimation();
+        console.log("anomation stopped");
     });
 
 }
 
-initialiseFloatingImages();
-//document.ready(listenToClicks);
+//$(initialiseFloatingImages);
+//$(listenToClicks);
+document.ready(initialiseFloatingImages());
 
 

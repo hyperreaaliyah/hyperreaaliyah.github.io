@@ -15,26 +15,6 @@ var main = function() {
   $('.links').css("min-height", height);
 
 
-  $('.goToMenu').click(function() {
-
-    if (menuShow === 0) {
-
-      $('.menu').animate({
-      left: "0px"
-      }, 600);
-      $(this).fadeTo('fast', 0.5);
-
-      $('.main').animate({
-      left: width
-      }, 600);
-      $(this).fadeTo('fast', 0.5);
-
-      menuShow = 1;
-
-    }
-
-  });
-
   $('.bubble').click(function() {
 
     if (projectShow === 0) {
@@ -50,6 +30,27 @@ var main = function() {
       $(this).fadeTo('fast', 0.5);
 
       projectShow = 1;
+
+    }
+
+  });
+
+
+  $('.goToMenu').click(function() {
+
+    if (menuShow === 0) {
+
+      $('.menu').animate({
+      left: "0px"
+      }, 600);
+      $(this).fadeTo('fast', 0.5);
+
+      $('.main').animate({
+      left: width
+      }, 600);
+      $(this).fadeTo('fast', 0.5);
+
+      menuShow = 1;
 
     }
 
