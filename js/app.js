@@ -18,7 +18,7 @@
 	});
 
 	var artworks = [
-		
+
 		{
 			"name": "Tongue in Cheek",
 			"number" : 0,
@@ -28,7 +28,7 @@
 					"text" : ""
 				}
 			],
-			"description": "Tongue in Cheek..."
+			"description": ""
 		},
 		{
 			"name": "Trinity Tub (or What Is Phil Doing Here?)",
@@ -102,8 +102,9 @@
 					"text" : "This image was born out of a coincidence. We were googling images with the search term of <i>hot gay sex</i> or something along those lines, when we came across a 3d modeling of an amputee in a sexually provocative position. Curious, we surfed to the blog and browsed through it. When we came across the image of the amputee veteran, we just knew he belonged to the floor of the oval office."
 				},
 				{
+					"name" : "Sei Il Nostro Futuro",
 					"src" : "Sei_Il_Nostro_Futuro.png",
-					"text" : "You are our future, Silvio, reads the sign in the crowd. Politicians like to use their often heteronormative families to deliver a message of trustworthiness and responsibility. Citizenry is also often associated to having a family, which is often considered a fundamental building block of society. Politicians also like to address families in their speeches and in their actions. <br/> Here, Silvio Berlusconi is ecstatically greeting a young girl whose mother seems equally as eager to get to shake Silvio's hand, while a bodyguard makes sure the necessary distance is kept. By overlaying an image of brutally everyday situation in a young family to this politically charged situation of addressing a family, we attempt to show the kind of moments that the political sphere rarely touches - the weariness brought by raising a young child and the intimacy of family. The contrast hopefully brings to surface the disconnect between PR and reality."
+					"text" : "You are our future, Silvio, reads the sign in the crowd. Politicians like to use their often heteronormative families to deliver a message of trustworthiness and responsibility. Citizenry is also often associated to having a family, which is even considered a fundamental building block of society. Politicians also like to address families in their speeches and in their actions. Here, Silvio Berlusconi is ecstatically greeting a young girl whose mother seems very eager to get to shake Silvio's hand, while a bodyguard makes sure the necessary distance is kept. By overlaying an image of brutally everyday situation in a young family to this politically charged situation of addressing a family, we attempt to show the kind of moments that the political sphere rarely touches - the weariness brought by raising a young child and the intimacy of family. The contrast hopefully brings to surface the disconnect between PR and reality. This image was displayed in HYPERREAALIYAH + HANNA HYY = NOW HERE, and it was the biggest divider of opinions – some said they absolutely loved it, others couldn't even look at it."
 				},
 				{
 					"name" : "Christine Lagarde in Jerusalem",
@@ -161,7 +162,7 @@
 			"description": "This video consists of footage shot by Jenna on her 26th birthday."
 		},
 		{
-			"name" : "Henry Lämsä in club Hogarden",
+			"name" : "Henry Lämsä in Club Hogarden",
 			"number" : 9,
 			"showVideo" : "true",
 			"description": ""
@@ -178,11 +179,10 @@
 			"showVideo" : "true",
 			"description": "This was by far the biggest collective effort of HYPERREAALIYAH. On Monday the 14th of September, Jenna received a message from an acquaintance and a member of contemporary Finnish SS, Suomen Sisu, to make a video of its 17 year history for private use in their seminar. Jenna agreed immediately, secretly taking their script and giving it to the hands of HYPERREAALIYAH. In three days, a real history was created, showing how the SS looks like in the eyes of an outsider. The video was published publicly at the same time it was scheduled to be shown in the seminar, where it was sent so that there was no chance they had time to look at it in advance. The story does not tell whether they looked at it in the seminar or not. Within two days, the video had 16 000 views on Youtube, which is a lot in Finnish standards. "
 		}
-		
+
 
 	]
-		
+
 
 
 })();
-

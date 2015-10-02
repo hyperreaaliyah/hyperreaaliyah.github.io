@@ -19,7 +19,7 @@ var yStep = new Array();
 var timeout = null;
 
 var projectNumbers = [0,1,2,3,3,3,4,4,4,4,4,4,4,4,4,5,6,7,8,9,10,11];
-var imageCount = projectNumbers.length;
+var imageCount = projectNumbers.length + 1;
 
 // window size variables, set by function detectWindowSize()
 var windowWidth, windowHeight;
@@ -42,7 +42,7 @@ var windowWidth, windowHeight;
 
 
 // create DIVs and start the function
-function initialiseFloatingImages() {   
+function initialiseFloatingImages() {
     detectWindowSize();
 
     for (var i = 0; i < imageCount; i++) {
@@ -58,31 +58,33 @@ function initialiseFloatingImages() {
         // set step variables
         yStep[i] = 0.7 + Math.random();
         // write layers etc...
-        
+
         drawBubble(i);
-        
+
     }
 
     moveFloatingImages();
 }
 
 function drawBubble(index) {
-    // var bubble = {};
-    // bubble.xPosition = xPosition(index);
-    // bubble.yPosition = yPosition(index);
-    // bubble.xAmplitude = xAmplitude(index);
-    // bubble.yStep = yStep(index);
+
     var projectIndex = projectNumbers[index];
+    var bubbleIndex = imageCount - 1;
+
+    if (index === bubbleIndex) {
+      document.write('<div class="goToMenu" id="dot'+index+'" style="POSITION:absolute; Z-INDEX:'+index+'; VISIBILITY:visible; TOP:15px; LEFT:15px;"><img class="clickable" src="bubbles/'+index+'.png" alt="Floating image"/></div>');
+    } else {
+      document.write('<div class="bubble" id="dot'+index+'" ng-click="tab='+projectIndex+'" style="POSITION:absolute; Z-INDEX:'+index+'; VISIBILITY:visible; TOP:15px; LEFT:15px;"><img class="clickable" src="bubbles/'+index+'.png" alt="Floating image"/></div>');
+    }
 
     //$('.main').append('<div class="bubble" id="dot'+index+'" ng-click="tab='+projectIndex+'" style="POSITION:absolute; Z-INDEX:'+index+'; VISIBILITY:visible; TOP:15px; LEFT:15px;"><img class="clickable" src="bubbles/'+index+'.png" alt="Floating image"/></div>');
 
-    document.write('<div class="bubble" id="dot'+index+'" ng-click="tab='+projectIndex+'" style="POSITION:absolute; Z-INDEX:'+index+'; VISIBILITY:visible; TOP:15px; LEFT:15px;"><img class="clickable" src="bubbles/'+index+'.png" alt="Floating image"/></div>');
 }
 
 
 // main function
 function moveFloatingImages() {
-    
+
     for (var i = 0; i < imageCount; i++) {
         // recalculate y position
         yPosition[i] += imageDirection * yStep[i];
@@ -108,7 +110,7 @@ function moveFloatingImages() {
 
         document.getElementById("dot"+i).style.top = yPosition[i] + "px";
         document.getElementById("dot"+i).style.left = newXPosition + "px";
-        
+
     }
     startAnimation();
 }
@@ -129,9 +131,9 @@ function getPageYOffset() {
      return document.body.scrollTop;
 }
 
-function detectWindowSize() {   
+function detectWindowSize() {
         windowWidth = window.innerWidth;
-        windowHeight = window.innerHeight;   
+        windowHeight = window.innerHeight;
 }
 
 var listenToClicks = function() {
@@ -157,5 +159,3 @@ var listenToClicks = function() {
 //$(initialiseFloatingImages);
 //$(listenToClicks);
 document.ready(initialiseFloatingImages());
-
-
