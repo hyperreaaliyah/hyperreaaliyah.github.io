@@ -7,6 +7,7 @@
 
 body {
 	-webkit-font-smoothing: antialiased !important;
+	background-color: black;
 }
 
 html, body {
@@ -94,6 +95,10 @@ tr {
 	width: 400px;
 }
 
+.naviItems {
+	margin-top: 22%;
+}
+
 
 
 
@@ -179,7 +184,9 @@ h3 {
 
 /* IMAGE RELATED */
 
-
+button, div {
+	opacity: 1 !important;
+}
 
 .goToMenu, .bubble {
 	max-width: 100px;
