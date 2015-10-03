@@ -9,6 +9,11 @@ angular.module('art-catalogue')
 
   })
 
+  .when('/menu', {
+    templateUrl: 'templates/pages/menu/index.html'
+
+  })
+
   .otherwise( { redirectTo: '/'} );
 
 
