@@ -74,7 +74,7 @@ function drawBubble(index) {
     if (index === bubbleIndex) {
       document.write('<div class="goToMenu" id="dot'+index+'" style="POSITION:absolute; Z-INDEX:'+index+'; VISIBILITY:visible; TOP:15px; LEFT:15px;"><img class="clickable" src="bubbles/'+index+'.png" alt="Floating image"/></div>');
     } else {
-      document.write('<div class="bubble" id="dot'+index+'" ng-click="tab='+projectIndex+'" style="POSITION:absolute; Z-INDEX:'+index+'; VISIBILITY:visible; TOP:15px; LEFT:15px;"><img class="clickable" src="bubbles/'+index+'.png" alt="Floating image"/></div>');
+      document.write('<div class="bubble" id="dot'+index+'" ng-click="tab='+projectIndex+'" style="POSITION:absolute; Z-INDEX:'+index+'; VISIBILITY:visible; TOP:15px; LEFT:15px;"><a href="#/project"><img class="clickable" src="bubbles/'+index+'.png" alt="Floating image"/></a></div>');
     }
 
     //$('.main').append('<div class="bubble" id="dot'+index+'" ng-click="tab='+projectIndex+'" style="POSITION:absolute; Z-INDEX:'+index+'; VISIBILITY:visible; TOP:15px; LEFT:15px;"><img class="clickable" src="bubbles/'+index+'.png" alt="Floating image"/></div>');

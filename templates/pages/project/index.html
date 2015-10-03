@@ -6,7 +6,6 @@
 
     <p class="projectDescription">{{work.description}}</p>
 
-
     <div ng-repeat="photo in work.photos">
       <h3>{{photo.name}}</h3>
       <img class="imageFull" src="projects/{{work.number}}/{{photo.src}}"></img>
@@ -17,7 +16,6 @@
 
     <!-- SHOWS A VIDEO IF ITS ALLOWED IN THE JSON -->
     <div class="video" ng-show="work.showVideo">
-
 
       <div class="videoContainer" ng-show="tab === 5">
         <iframe class="projectVideo" src="https://www.youtube.com/embed/JHD8pSs2rFs" frameborder="0"></iframe>

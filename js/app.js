@@ -1,6 +1,6 @@
 (function() {
 
-	var app = angular.module('art-catalogue', [ ]);
+	var app = angular.module('art-catalogue', ['ngRoute']);
 
 	// controller must be capitalized
 	app.controller('ArtController', [ '$http', function( $http ) {

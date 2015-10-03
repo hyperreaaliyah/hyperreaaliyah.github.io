@@ -10,10 +10,6 @@
 
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 
-		<!-- vendor -->
-		<script src="js/vendor/jquery-2.1.1.js"></script>
-		<script type="text/javascript" src="js/vendor/angular.min.js"></script>
-
 		<!-- scripts -->
 		<script type="text/javascript" src="js/app.js"></script>
 		<script type="text/javascript" src="js/navigation.js"></script>
@@ -116,7 +112,7 @@
 					<p class="navi" ng-click="nav_tab=2">Contact</p>
 					<p class="navi" ng-click="nav_tab=3">News</p>
 				</div>
-				
+
 			</div>
 
 		</section>
@@ -135,10 +131,16 @@
 
 			<img class="arrowLeft backButton" src="img/arrow-left.png"></img>
 
-			<div ng-include="'project.html'"></div>
+			<div ng-view></div>
+			<!-- <div ng-include="'project.html'"></div> -->
 
 		</section>
 
+
+		<!-- vendor -->
+		<script src="js/vendor/jquery-2.1.1.js"></script>
+		<script src="js/vendor/angular.min.js"></script>
+		<script src="js/vendor/angular-route.min.js"></script>
 
 
 	</body>
