@@ -128,15 +128,14 @@ h2, h3 {
 
 }
 
-
-h1.artistTitle {
+/*h1.artistTitle {
 	font-family: 'Mrs Saint Delafield';
 	color: #FFDFC3;
 	text-align: center;
 	font-size: 100px;
 	margin: 30px;
 	padding-top: 20%;
-}
+}*/
 
 h1.projectTitle {
 	font-family: 'Playfair Display', serif;
@@ -195,7 +194,7 @@ button, div {
 }
 
 .goToMenu, .bubble {
-	max-width: 100px;
+	max-width: 120px;
 }
 
 .goToMenu {
