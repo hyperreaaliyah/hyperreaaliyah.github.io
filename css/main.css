@@ -33,6 +33,12 @@ html, body {
 
 }
 
+.menuPanel, .contactPanel {
+	height: 100%;
+	max-height: 100%;
+	overflow-y: hidden;
+}
+
 .menu, .project, .links {
 	position: absolute;
 	background-image: url("../img/hyperbg_nahka.jpg");
@@ -46,8 +52,8 @@ html, body {
 
 .menu {
 	left: -100%;
-	max-height: 100%;
-    overflow-y: hidden;
+	max-height: 100% !important;
+  overflow-y: hidden;
 }
 
 .project {

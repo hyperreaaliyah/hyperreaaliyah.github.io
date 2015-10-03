@@ -20,9 +20,8 @@
 		<script type="text/javascript" src="js/bubbles.js"></script>
 
 
-
-
 	</head>
+
 
 	<body ng-controller="ArtController as controller">
 
@@ -49,7 +48,7 @@
 				</div>
 			</div>
 
-			<div class="panel" ng-show="nav_tab === 2">
+			<div class="contactPanel panel" ng-show="nav_tab === 2">
 
 				<div class="halfPage">
 					<h2 class="contactTitle">Contact</h2>
@@ -110,13 +109,14 @@
 
 			<img class="backButton arrowRight" src="img/arrow-right.png"></img>
 
-			<div class="panel">
+			<div class="menuPanel panel">
 
 				<div class="naviItems">
 					<p class="navi" ng-click="nav_tab=1">About</p>
 					<p class="navi" ng-click="nav_tab=2">Contact</p>
 					<p class="navi" ng-click="nav_tab=3">News</p>
 				</div>
+				
 			</div>
 
 		</section>
