@@ -6,9 +6,9 @@ angular.module('art-catalogue')
     templateUrl: 'templates/pages/project/index.html'
   })
 
-  .when('/', {
-    templateUrl: 'index.html'
-  })
+  // .when('/', {
+  //   templateUrl: 'index.html'
+  // })
 
   // .when('/menu', {
   //   templateUrl: 'templates/pages/menu/index.html'
