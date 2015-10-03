@@ -4,5 +4,7 @@ angular.module('art-catalogue')
     templateUrl: 'templates/pages/project/index.html'
   })
 
+  // .otherwise( { redirectTo: '/projects'} );
+
 
 });
