@@ -7,7 +7,6 @@
 		var project = this;
 		project.works = [ ];
 
-
 		$http.get('data/works.json').success(function(data) {
    			project.works = data;
   		});
