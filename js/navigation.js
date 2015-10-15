@@ -7,11 +7,11 @@ var main = function() {
   var projectShow = 0;
   var bioLinksShow = 0;
 
-  
+
   $('.menu').css("height", height);
-  
+
   $('.project').css("min-height", height);
-  
+
   $('.links').css("min-height", height);
 
 
@@ -56,26 +56,26 @@ var main = function() {
 
   });
 
-  $('.navi').click(function() {
-
-    $('.menu').animate({
-    left: width
-    }, 600);
-    $(this).fadeTo('slow', 0.9);
-
-    $('.links').animate({
-    left: "0px"
-    }, 600);
-    $(this).fadeTo('fast', 0.9);
-
-    bioLinksShow = 1;
-
-  });
+  // $('.navi').click(function() {
+  //
+  //   $('.menu').animate({
+  //   left: width
+  //   }, 600);
+  //   $(this).fadeTo('slow', 0.9);
+  //
+  //   $('.links').animate({
+  //   left: "0px"
+  //   }, 600);
+  //   $(this).fadeTo('fast', 0.9);
+  //
+  //   bioLinksShow = 1;
+  //
+  // });
 
 
   $('.backButton').click(function() {
 
-    
+
     if (menuShow === 1) { //ollaan menussa--> takaisin keskisivulle
 
       $('.menu').animate({
@@ -110,7 +110,7 @@ var main = function() {
 
   $('.backButton_2').click(function() {
 
-    
+
     if (bioLinksShow === 1) { //ollaan biolinkseissä --> takaisin menuun
 
       $('.links').animate({

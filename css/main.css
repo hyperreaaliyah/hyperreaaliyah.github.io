@@ -42,8 +42,8 @@ html, body {
 .menu, .project, .links {
 	position: absolute;
 	background-image: url("../img/hyperbg_nahka.jpg");
-	padding-bottom: 20%;
-	z-index: 100;
+	/*padding-bottom: 20%;*/
+	z-index: 50;
 	background-color: black;
 	width: 100%;
 	min-width: 100%;
@@ -52,8 +52,10 @@ html, body {
 
 .menu {
 	left: -100%;
-	max-height: 100% !important;
-  overflow-y: hidden;
+	/*max-height: 100% !important;*/
+  /*overflow-y: hidden;*/
+	overflow-y: hidden;
+	margin:0;
 }
 
 .project {
@@ -79,12 +81,12 @@ html, body {
 
 td {
 	max-width: 45%;
-	padding-bottom: 40px;
+	padding-bottom: 20px;
 }
 
 tr {
-	margin-top: 20px;
-	margin-bottom: 100px;
+	margin-top: 10px;
+	/*margin-bottom: 100px;*/
 }
 
 .newsPanel {
@@ -94,17 +96,46 @@ tr {
 
 .newsDate {
 	vertical-align: top;
-	width: 200px;
+	width: 100px;
 }
 
 .newsContent {
-	width: 400px;
+	width: 500px;
 }
 
-.naviItems {
+/*.naviItems {
 	margin-top: 22%;
+}*/
+
+.menu-section {
+	padding: 15px;
+	font-size: 14px;
+	vertical-align: top;
+	display: inline-block;
+
 }
 
+.about {
+	max-height:100%;
+	overflow-y: auto;
+	max-width: 30%;
+}
+
+.contact {
+	max-width: 15%;
+}
+
+.news {
+	max-height:100%;
+	overflow-y: auto;
+	max-width: 40% !important;
+	border-left: 1px solid rgba(255, 255, 255, 0.5);
+	border-right: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.scrollable {
+	overflow-y: auto;
+}
 
 
 
@@ -118,6 +149,10 @@ p {
 	color: #FFFFFF;
 }
 
+a {
+	color: rgb(220,170,99);
+}
+
 h1, h2 {
 	/*text-align: center;*/
 }
@@ -127,15 +162,6 @@ h2, h3 {
 	font-family: 'Playfair Display', serif;
 
 }
-
-/*h1.artistTitle {
-	font-family: 'Mrs Saint Delafield';
-	color: #FFDFC3;
-	text-align: center;
-	font-size: 100px;
-	margin: 30px;
-	padding-top: 20%;
-}*/
 
 h1.projectTitle {
 	font-family: 'Playfair Display', serif;
@@ -158,17 +184,8 @@ h3 {
 	font-size: 20px;
 }
 
-.aboutTitle {
-	padding-top: 10%;
-}
-
-.contactTitle {
-	padding-top: 35%;
-	text-align: left !important;
-}
-
-.newsTitle {
-	margin-bottom: 50px;
+.aboutTitle, .contactTitle, .newsTitle {
+	padding-top: 3%;
 }
 
 .navi {
@@ -204,6 +221,7 @@ button, div {
 
 .arrowRight {
 	margin: 20;
+	display: inline-block;
 	position: relative;
 	float: right;
 	margin-top: 20px;

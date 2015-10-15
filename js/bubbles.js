@@ -159,3 +159,4 @@ var listenToClicks = function() {
 //$(initialiseFloatingImages);
 //$(listenToClicks);
 document.ready(initialiseFloatingImages());
+document.ready(listenToClicks());
