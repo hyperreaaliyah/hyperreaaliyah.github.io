@@ -10,13 +10,13 @@ angular.module('art-catalogue')
   //   templateUrl: 'index.html'
   // })
 
-  // .when('/menu', {
-  //   templateUrl: 'templates/pages/menu/index.html'
-  // })
+  .when('/menu', {
+    templateUrl: 'templates/pages/menu/index.html'
+  })
 
-  // .otherwise( {
-  //   redirectTo: '/'
-  // });
+  .otherwise( {
+    redirectTo: '/'
+  });
 
 
 });

@@ -24,21 +24,6 @@ var imageCount = projectNumbers.length + 1;
 // window size variables, set by function detectWindowSize()
 var windowWidth, windowHeight;
 
-// var $element = $('[ng-controller="ArtController"]');
-// var scope = angular.element($element).scope();
-
-
-// angular.module('art-catalogue').factory('factoryName', function(){
-// // create factory object
-//     var data = {};
-//     data.someProperty = 'Some Property';
-//     data.someMethod = function(){
-//         console.log(scope);
-//     }
-// // return the factory object
-//     return data;
-// })
-
 
 
 // create DIVs and start the function
