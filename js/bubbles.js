@@ -134,7 +134,7 @@ var listenToClicks = function() {
         startAnimation();
         console.log("anomation started");
     });
-    $('.goToMenu').click(function() {
+    document.getElementsByClassName('goToMenu').click(function() {
         stopAnimation();
         console.log("anomation stopped");
     });

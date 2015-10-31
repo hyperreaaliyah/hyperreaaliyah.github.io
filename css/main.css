@@ -13,6 +13,11 @@ body {
 html, body {
     max-width: 100%;
     overflow-x: hidden;
+		background: url("../img/hyperbg_nahka.jpg") no-repeat center center fixed;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
 }
 
 .main {
