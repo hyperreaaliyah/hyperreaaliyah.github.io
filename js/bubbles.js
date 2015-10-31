@@ -1,5 +1,5 @@
 
-var imageHeight = 16;
+var imageHeight = 150;
 
 var imageDirection = -1;
 
@@ -57,9 +57,9 @@ function drawBubble(index) {
     var bubbleIndex = imageCount - 1;
 
     if (index === bubbleIndex) {
-      document.write('<div class="goToMenu" id="dot'+index+'" style="POSITION:absolute; Z-INDEX:'+index+'; VISIBILITY:visible; TOP:15px; LEFT:15px;"><img class="clickable" src="bubbles/'+index+'.png" alt="Floating image"/></div>');
+      document.getElementById("main").innerHTML += '<div class="goToMenu" id="dot'+index+'" style="POSITION:absolute; Z-INDEX:'+index+'; VISIBILITY:visible; TOP:15px; LEFT:15px;"><img class="clickable" src="bubbles/'+index+'.png" alt="Floating image"/></div>';
     } else {
-      document.write('<div class="bubble" id="dot'+index+'" ng-click="tab='+projectIndex+'" style="POSITION:absolute; Z-INDEX:'+index+'; VISIBILITY:visible; TOP:15px; LEFT:15px;"><a href="#/projects"><img class="clickable" src="bubbles/'+index+'.png" alt="Floating image"/></a></div>');
+      document.getElementById("main").innerHTML += '<div class="bubble" id="dot'+index+'" ng-click="tab='+projectIndex+'" style="POSITION:absolute; Z-INDEX:'+index+'; VISIBILITY:visible; TOP:15px; LEFT:15px;"><a href="#/projects"><img class="clickable" src="bubbles/'+index+'.png" alt="Floating image"/></a></div>';
     }
 
     //$('.main').append('<div class="bubble" id="dot'+index+'" ng-click="tab='+projectIndex+'" style="POSITION:absolute; Z-INDEX:'+index+'; VISIBILITY:visible; TOP:15px; LEFT:15px;"><img class="clickable" src="bubbles/'+index+'.png" alt="Floating image"/></div>');
