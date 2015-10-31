@@ -46,7 +46,7 @@ html, body {
 
 .menu, .project {
 	position: absolute;
-	background-image: url("../img/hyperbg_nahka.jpg");
+	/*background-image: url("../img/hyperbg_nahka.jpg");*/
 	/*padding-bottom: 20%;*/
 	z-index: 50;
 	background-color: black;
