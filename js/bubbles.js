@@ -121,7 +121,8 @@ function detectWindowSize() {
         windowHeight = window.innerHeight;
 }
 
-var listenToClicks = function() {
+function listenToClicks() {
+  var number = "dot"+ imageCount - 1;
     $('.bubble').click(function() {
         stopAnimation();
         console.log("anomation stopped");
@@ -134,7 +135,7 @@ var listenToClicks = function() {
         startAnimation();
         console.log("anomation started");
     });
-    document.getElementsByClassName('goToMenu').click(function() {
+    document.getElementById("dot"+number).addEventListener("click", function() {
         stopAnimation();
         console.log("anomation stopped");
     });

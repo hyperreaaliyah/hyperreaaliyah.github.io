@@ -46,12 +46,10 @@ html, body {
 
 .menu, .project {
 	position: absolute;
-	/*background-image: url("../img/hyperbg_nahka.jpg");*/
-	/*padding-bottom: 20%;*/
 	z-index: 50;
 	width: 100%;
 	min-width: 100%;
-	min-height: 100%;
+	/*min-height: 100%;*/
 }
 
 .menu {
@@ -283,9 +281,20 @@ button, div {
 }
 
 @media only screen and (max-width: 1000px) {
-		.menu-section {
-			display: block;
-			width: 800px;
-			max-width: 95%;
+		.menu {
+			overflow-y: visible;
 		}
+		.menu-section, .news {
+			display: block;
+			width: 800px !important;
+			max-width: 95% !important;
+			max-height: none !important;
+		}
+		.news {
+			overflow-y: visible;
+			border-left: none;
+			border-right: none;
+			max-height: none;
+		}
+
 }
