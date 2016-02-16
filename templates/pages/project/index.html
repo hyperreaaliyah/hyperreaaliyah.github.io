@@ -4,7 +4,7 @@
 
     <h1 class="projectTitle">{{work.name}}</h1>
 
-    <p class="projectDescription">{{work.description}}</p>
+    <p class="projectDescription" ng-hide="work.showVideo">{{work.description}}</p>
 
     <div ng-repeat="photo in work.photos">
       <h3>{{photo.name}}</h3>
@@ -41,6 +41,8 @@
       </div>
 
     </div>
+
+    <p class="projectDescription" ng-show="work.showVideo">{{work.description}}</p>
 
   </div>
 
