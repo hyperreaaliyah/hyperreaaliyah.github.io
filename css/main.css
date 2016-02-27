@@ -20,11 +20,44 @@ html, body {
   	background-size: cover;
 }
 
+
+
 .main {
-	background-image: url("../img/hyperbg_skumppa.jpg");
+
+	background: linear-gradient(93deg, #ff5e88, #f89be2, #9ba7f8, #5e88ff, #9ba7f8, #f89be2, #ff5e88);
+	background-size: 1400% 1400%;
+
+	-webkit-animation: HYPERREAALIYAH 59s ease infinite;
+	-moz-animation: HYPERREAALIYAH 59s ease infinite;
+	-o-animation: HYPERREAALIYAH 59s ease infinite;
+	animation: HYPERREAALIYAH 59s ease infinite;
+
+
+	/*background-image: url("../img/hyperbg_skumppa.jpg");*/
 	height: 100%;
 	width: 100%;
 	position: absolute;
+}
+
+@-webkit-keyframes HYPERREAALIYAH {
+		0%{background-position:0% 52%}
+		50%{background-position:100% 49%}
+		100%{background-position:0% 52%}
+}
+@-moz-keyframes HYPERREAALIYAH {
+		0%{background-position:0% 52%}
+		50%{background-position:100% 49%}
+		100%{background-position:0% 52%}
+}
+@-o-keyframes HYPERREAALIYAH {
+		0%{background-position:0% 52%}
+		50%{background-position:100% 49%}
+		100%{background-position:0% 52%}
+}
+@keyframes HYPERREAALIYAH {
+		0%{background-position:0% 52%}
+		50%{background-position:100% 49%}
+		100%{background-position:0% 52%}
 }
 
 
