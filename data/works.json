@@ -160,6 +160,33 @@
 		"showVideo" : "true",
 		"description": "This was by far the biggest collective effort of HYPERREAALIYAH. On Monday the 14th of September, Jenna received a message from an acquaintance and a member of contemporary Finnish SS, Suomen Sisu, to make a video of its 17 year history for private use in their seminar. Jenna agreed immediately, secretly taking their script and giving it to the hands of HYPERREAALIYAH. In three days, a real history was created, showing how the SS looks like in the eyes of an outsider. The video was published publicly at the same time it was scheduled to be shown in the seminar, where it was sent so that there was no chance they had time to look at it in advance. The story does not tell whether they looked at it in the seminar or not. Within two days, the video had reached 16 000 views on Youtube. "
 	}
+{
+		"name": “YOU ARE NOW LEAVING REALITY“,
+		"number" : 12,
+		"photos": [
+			{
+				"name" : “Number 1“,
+				"src" : “YOU-ARE-NOW-LEAVING-REALITY-1-small.png",
+				"text" : “Teksti 1.”
+			},
+			{
+				"name" : “Number 2“,
+				"src" : “YOU-ARE-NOW-LEAVING-REALITY-2-small.png",
+				"text" : “Teksti 2.” 
+			},
+			{
+				"name" : “Number 3“,
+				"src" : “YOU-ARE-NOW-LEAVING-REALITY-3-small.png",
+				"text" : “Teksti 3.”
+			}
+
+
+		],
+		"description": “Koko sarjan description.”
+
+}	
+	
+	
 
 
 ]
