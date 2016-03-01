@@ -32,6 +32,11 @@ background-size: 1400% 1400%;
 -o-animation: HYPERREAALIYAH 59s ease infinite;
 animation: HYPERREAALIYAH 59s ease infinite;
 
+/*background-image: url("../img/hyperbg_skumppa.jpg");*/
+ height: 100%;
+ width: 100%;
+ position: absolute;
+
 @-webkit-keyframes HYPERREAALIYAH {
     0%{background-position:50% 0%}
     50%{background-position:51% 100%}
