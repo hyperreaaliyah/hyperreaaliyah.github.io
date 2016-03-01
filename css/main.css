@@ -24,18 +24,19 @@ html, body {
 
 .main {
 
-	 background: linear-gradient(180deg, #f27688, #f883d2, #5151ff, #8cf1ff, #8dfc8f, #faff92, #fa7b7b);
-background-size: 1400% 1400%;
-
--webkit-animation: HYPERREAALIYAH 59s ease infinite;
--moz-animation: HYPERREAALIYAH 59s ease infinite;
--o-animation: HYPERREAALIYAH 59s ease infinite;
-animation: HYPERREAALIYAH 59s ease infinite;
-
-/*background-image: url("../img/hyperbg_skumppa.jpg");*/
- height: 100%;
- width: 100%;
- position: absolute;
+	background: linear-gradient(180deg, #f27688, #f883d2, #5151ff, #8cf1ff, #8dfc8f, #faff92, #fa7b7b);
+	background-size: 1400% 1400%;
+	
+	-webkit-animation: HYPERREAALIYAH 59s ease infinite;
+	-moz-animation: HYPERREAALIYAH 59s ease infinite;
+	-o-animation: HYPERREAALIYAH 59s ease infinite;
+	animation: HYPERREAALIYAH 59s ease infinite;
+	
+	/*background-image: url("../img/hyperbg_skumppa.jpg");*/
+	 height: 100%;
+	 width: 100%;
+	 position: absolute;
+}
 
 @-webkit-keyframes HYPERREAALIYAH {
     0%{background-position:50% 0%}
