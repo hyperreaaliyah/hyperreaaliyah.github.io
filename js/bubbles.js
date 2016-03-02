@@ -18,7 +18,7 @@ var yStep = new Array();
 
 var timeout = null;
 
-var projectNumbers = [0,1,2,3,3,3,4,4,4,4,4,4,4,4,4,5,6,7,8,9,10,11];
+var projectNumbers = [0,1,2,3,3,3,4,4,4,4,4,4,4,4,4,5,6,7,8,9,10,11,12,12,12];
 var imageCount = projectNumbers.length + 1;
 
 // window size variables, set by function detectWindowSize()
@@ -54,7 +54,7 @@ function initialiseFloatingImages() {
 function drawBubble(index) {
 
     var projectIndex = projectNumbers[index];
-    var bubbleIndex = imageCount - 1;
+    var bubbleIndex = 22;
 
     if (index === bubbleIndex) {
       document.getElementById("main").innerHTML += '<div class="goToMenu" id="dot'+index+'" style="POSITION:absolute; Z-INDEX:'+index+'; VISIBILITY:visible; TOP:15px; LEFT:15px;"><img class="clickable" src="bubbles/'+index+'.png" alt="Floating image"/></div>';
