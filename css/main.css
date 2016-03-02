@@ -227,7 +227,7 @@ button, div {
 	opacity: 1 !important;
 }
 
-.goToMenu, .bubble img {
+.goToMenu, .bubble * {
 	max-width: 120px;
 	min-width: 120px;
 }
