@@ -118,6 +118,33 @@
 		"description": "The idea behind this series is to take one politically charged image and use it as a base for another image which somehow thwarts or highlights its meaning. Currently there are ten ready images, four of which have been shown in an xhibition. Every image except for Always Bill have been made in the Summer of 2015."
 
 	},
+	
+	{
+		"name": “YOU ARE NOW LEAVING REALITY“,
+		"number" : 12,
+		"photos": [
+			{
+				"name" : “Number 1“,
+				"src" : “YOU-ARE-NOW-LEAVING-REALITY-1-small.png",
+				"text" : “Teksti 1.”
+			},
+			{
+				"name" : “Number 2“,
+				"src" : “YOU-ARE-NOW-LEAVING-REALITY-2-small.png",
+				"text" : “Teksti 2.” 
+			},
+			{
+				"name" : “Number 3“,
+				"src" : “YOU-ARE-NOW-LEAVING-REALITY-3-small.png",
+				"text" : “Teksti 3.”
+			}
+
+
+		],
+		"description": “Koko sarjan description.”
+	
+	},
+	
 	{
 		"name" : "Now Here Kalleria (2015)",
 		"number" : 5,
