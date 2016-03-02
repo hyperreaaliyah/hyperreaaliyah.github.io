@@ -1,7 +1,7 @@
 [
 
 	{
-		"name": "Tongue in Cheek",
+		"name": "Tongue in Cheek (2014)",
 		"number" : 0,
 		"photos": [
 			{
@@ -12,7 +12,7 @@
 		"description": ""
 	},
 	{
-		"name": "Trinity Tub (or What Is Phil Doing Here?)",
+		"name": "Trinity Tub (or What Is Phil Doing Here?) (2015)",
 		"number" : 1,
 		"photos": [
 			{
@@ -23,7 +23,7 @@
 		"description": ""
 	},
 	{
-		"name": "50 Cent Cleaned My Desktop",
+		"name": "50 Cent Cleaned My Desktop (2014)",
 		"number" : 2,
 		"photos": [
 			{
@@ -35,7 +35,7 @@
 
 	},
 	{
-		"name": "ARTPROPRIATIONS",
+		"name": "ARTPROPRIATIONS (2015)",
 		"number" : 3,
 		"photos": [
 			{
@@ -59,7 +59,7 @@
 
 	},
 	{
-		"name": "Sympolitics",
+		"name": "Sympolitics (2015)",
 		"number" : 4,
 		"photos": [
 			{
@@ -161,28 +161,28 @@
 		"description": "This was by far the biggest collective effort of HYPERREAALIYAH. On Monday the 14th of September, Jenna received a message from an acquaintance and a member of contemporary Finnish SS, Suomen Sisu, to make a video of its 17 year history for private use in their seminar. Jenna agreed immediately, secretly taking their script and giving it to the hands of HYPERREAALIYAH. In three days, a real history was created, showing how the SS looks like in the eyes of an outsider. The video was published publicly at the same time it was scheduled to be shown in the seminar, where it was sent so that there was no chance they had time to look at it in advance. The story does not tell whether they looked at it in the seminar or not. Within two days, the video had reached 16 000 views on Youtube. "
 	},
 	{
-		"name": "YOU ARE NOW LEAVING REALITY",
+		"name": "YOU ARE NOW LEAVING REALITY (2016)",
 		"number" : 12,
 		"photos": [
 			{
 				"name" : "Number 1",
-				"src" : "YOU-ARE-NOW-LEAVING-REALITY-1-small.png",
-				"text" : "Teksti 1."
+				"src" : "nro1.png",
+				"text" : ""
 			},
 			{
 				"name" : "Number 2",
-				"src" : "YOU-ARE-NOW-LEAVING-REALITY-2-small.png",
-				"text" : "Teksti 2." 
+				"src" : "nro2.png",
+				"text" : "" 
 			},
 			{
 				"name" : "Number 3",
-				"src" : "YOU-ARE-NOW-LEAVING-REALITY-3-small.png",
-				"text" : "Teksti 3."
+				"src" : "nro3.png",
+				"text" : ""
 			}
 
 
 		],
-		"description": "Koko sarjan description."
+		"description": "This series attempts to juxtapose borders and their real-life implications with the allure of the hyperreal. In a world with very real problems, what makes us choose to focus our minds and lives to illusions? We have no answers, only images."
 	
 	}
 
