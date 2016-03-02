@@ -228,7 +228,8 @@ button, div {
 }
 
 .goToMenu, .bubble img {
-	width: 120px;
+	max-width: 120px;
+	min-width: 120px;
 }
 
 .goToMenu {
