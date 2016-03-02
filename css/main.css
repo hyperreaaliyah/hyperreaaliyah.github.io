@@ -23,15 +23,13 @@ html, body {
 
 
 .main {
+background: linear-gradient(0deg, #2af837, #f82a2a, #862af8, #2adff8, #dcf82a, #f82aab, #2ab1f8, #f82a2a);
+background-size: 1600% 1600%;
 
-	background: linear-gradient(180deg, #f27688, #f883d2, #5151ff, #8cf1ff, #8dfc8f, #faff92, #fa7b7b);
-	background-size: 1400% 1400%;
-	
-	-webkit-animation: HYPERREAALIYAH 59s ease infinite;
-	-moz-animation: HYPERREAALIYAH 59s ease infinite;
-	-o-animation: HYPERREAALIYAH 59s ease infinite;
-	animation: HYPERREAALIYAH 59s ease infinite;
-	
+-webkit-animation: HYPERREAALIYAH 59s ease infinite;
+-moz-animation: HYPERREAALIYAH 59s ease infinite;
+animation: HYPERREAALIYAH 59s ease infinite;
+
 	/*background-image: url("../img/hyperbg_skumppa.jpg");*/
 	 height: 100%;
 	 width: 100%;
@@ -48,16 +46,11 @@ html, body {
     50%{background-position:51% 100%}
     100%{background-position:50% 0%}
 }
-@-o-keyframes HYPERREAALIYAH {
-    0%{background-position:50% 0%}
-    50%{background-position:51% 100%}
-    100%{background-position:50% 0%}
-}
 @keyframes HYPERREAALIYAH {
     0%{background-position:50% 0%}
     50%{background-position:51% 100%}
     100%{background-position:50% 0%}
-}
+}        
 
 .panel {
 
