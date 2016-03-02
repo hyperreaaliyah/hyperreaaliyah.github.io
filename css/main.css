@@ -228,7 +228,7 @@ button, div {
 }
 
 .goToMenu, .bubble {
-	max-width: 120px;
+	width: 120px;
 }
 
 .goToMenu {
